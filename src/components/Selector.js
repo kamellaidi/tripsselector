@@ -40,9 +40,9 @@ const Selector = () => {
         ))}
       </Form.Select>
       <Container className='m-3 d-flex flex-wrap'>
-        {trips.map.sort(((trip) => (
+        {trips.map((trip) => (
           <Trip key={trip.id} trip={trip} />
-        )))}
+        ))}
       </Container>
     </Container>
   );

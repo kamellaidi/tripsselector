@@ -32,7 +32,6 @@ const Trip = ({ trip }) => {
         <Card.Text>
           Heure de départ : {dayjs(trip.departureTime).format('HH:mm')}
         </Card.Text>
-        <Card.Text>Station d'arrivée : {trip.arrivalStop}</Card.Text>
         <Card.Text>
           Heure d'arrivée : {dayjs(trip.arrivalTime).format('HH:mm')}
         </Card.Text>
